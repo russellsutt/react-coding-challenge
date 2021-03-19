@@ -5,7 +5,6 @@ const PlaceholderShowCard = (props) => {
 
     const clickHandler = event => {
         let lowercase = event.toLowerCase();
-        console.log(lowercase)
         props.history.push( '/' + lowercase )
     }
 

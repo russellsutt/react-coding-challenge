@@ -1,11 +1,9 @@
 import { Switch, Route, BrowserRouter as Router } from 'react-router-dom'
 import MovieContainer from '../containers/MovieContainers'
 import SeriesContainer from '../containers/SeriesContainer'
-import { createBrowserHistory } from 'history'
 import Home from '../components/Home'
 
 const AppRouter = (props) => {
-
 
     return (
         <div>
@@ -20,5 +18,7 @@ const AppRouter = (props) => {
         </div>
     )
 }
+
+
 
 export default AppRouter

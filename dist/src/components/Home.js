@@ -1,6 +1,7 @@
 import PlaceholderShowCard from './PlaceholderShowCard'
-import {withRouter} from 'react-router-dom'
 import React, {Component} from 'react'
+import { fetchShows } from '../actions/thunks/fetchShows'
+import { connect } from 'react-redux'
 
 
 class Home extends Component {
@@ -8,7 +9,7 @@ class Home extends Component {
 
 
     componentDidMount() {
-        
+        this.props.fetchShows()
     }
 
 
@@ -29,4 +30,5 @@ class Home extends Component {
     }
 }
 
-export default withRouter(Home)
+
+export default connect(null, { fetchShows })(Home)
