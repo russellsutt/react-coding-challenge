@@ -1,0 +1,28 @@
+
+
+.footer-container {
+    background-color: #3f3b3b;
+    color: #adadad;
+}
+
+.footer {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 15%;
+    margin-right: 10%;
+}
+
+.footer-icons {
+}
+
+
+.footer-social-icons img {
+    float: lefts;
+    height: 50px;
+}
+
+.footer-store-icons img {
+    float: right;
+    display: inline-block;
+    height: 50px
+}
