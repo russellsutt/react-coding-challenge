@@ -5,12 +5,16 @@ const Header = (props) => {
 
 
     return (
-        <div>
-            <span id='header-span'>
+        <div className='header-container'>
+            <div className='header'>
                 <h1>DEMO Streaming</h1>
-                <button id='button-log-in'>Log In</button>
-                <button id='button-trial'>Start your free trial</button>
-            </span>
+                <div className="button-header-container">
+                    <span>
+                        <button className='header-button' id='button-log-in'>Log In</button>
+                        <button className='header-button' id='button-trial'>Start your free trial</button>
+                    </span>
+                </div>
+            </div>
         </div>
     )
 }
